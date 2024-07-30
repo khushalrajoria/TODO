@@ -1,9 +1,9 @@
 const express = require("express");
-const body_parser=require("body-parser");
-const userRoute=require("./routes/user_route");
+const body_parser = require("body-parser");
+const userRoute = require("./routes/user_route");
 
-const app =express();
-app.use('/',userRoute);
+const app = express();
+app.use(body_parser.json()); // Ensure this is before your routes
+app.use('/', userRoute);
 
-app.use(body_parser.json());
-module.exports=app;
+module.exports = app;
