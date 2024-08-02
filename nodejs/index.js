@@ -1,11 +1,8 @@
-const app =require("./app");
-const express = require('express');
-const db=require("./config/db");
-const UserModel=require("./model/user_model");
+const app = require("./app");
+const db = require('./config/db')
 
-const PORT=3000;
-app.use(express.json());
-app.listen(PORT,()=>{
-    console.log(`Server listening on Port http://localhost:${PORT}`);
-});
+const port = 3000;
 
+app.listen(port,()=>{
+    console.log(`Server Listening on Port http://localhost:${port}`);
+})
