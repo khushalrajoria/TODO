@@ -75,4 +75,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Inspired by [YouTube]([http://todomvc.com/](https://www.youtube.com/watch?v=rCt_Yad_4MY&list=PLGIDomk5-zo1tueqtvrFgUQ13ioA9yChC)).
+- Inspired by [YouTube video by Proto Coders Point]([http://todomvc.com/](https://www.youtube.com/watch?v=rCt_Yad_4MY&list=PLGIDomk5-zo1tueqtvrFgUQ13ioA9yChC)).
